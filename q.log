@@ -1,0 +1,15 @@
+This is TeX, Version 3.14159265 (TeX Live 2018) (preloaded format=tex 2018.9.21)  21 SEP 2018 18:27
+**exit
+(/usr/local/texlive/2018basic/texmf-dist/tex/latex/tools/q.tex
+! Interruption.
+l.2 
+    %% This is file `q.tex',
+? 
+File ignored
+)
+! Emergency stop.
+<*> exit
+        
+*** (job aborted, no legal \end found)
+
+No pages of output.
