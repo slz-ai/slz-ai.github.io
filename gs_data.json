@@ -1,0 +1,35 @@
+{
+  "container_type": "Author",
+  "filled": [
+    "basics",
+    "indices",
+    "counts"
+  ],
+  "scholar_id": "2EFS5WEAAAAJ",
+  "source": "AUTHOR_PROFILE_PAGE",
+  "name": "Shenglai Zeng",
+  "url_picture": "https://scholar.googleusercontent.com/citations?view_op=view_photo&user=2EFS5WEAAAAJ&citpid=6",
+  "affiliation": "Michigan State University",
+  "organization": 4033951344962453986,
+  "interests": [
+    "Large language models",
+    "Retrieval-augmented Generation",
+    "Information retrieval",
+    "AI safety"
+  ],
+  "email_domain": "@msu.edu",
+  "homepage": "https://slz-ai.github.io/#service",
+  "citedby": 1119,
+  "citedby5y": 1117,
+  "hindex": 14,
+  "hindex5y": 14,
+  "i10index": 14,
+  "i10index5y": 14,
+  "cites_per_year": {
+    "2022": 8,
+    "2023": 47,
+    "2024": 204,
+    "2025": 510,
+    "2026": 345
+  }
+}
