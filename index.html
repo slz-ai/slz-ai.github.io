@@ -203,6 +203,15 @@
       box-shadow: 0 4px 12px rgba(44, 82, 130, 0.25);
     }
 
+    .scholar-badge {
+      margin-bottom: 16px;
+    }
+
+    .scholar-badge img {
+      height: 22px;
+      vertical-align: middle;
+    }
+
     /* Research Interests */
     .research-interests {
       padding: 0 0 12px;
@@ -809,8 +818,13 @@
       <div class="hero-links">
         <a href="./Shenglai_s_Latest_CV (7).pdf"><i class="fas fa-file-alt"></i> CV</a>
         <a href="mailto:zengshe1@msu.edu"><i class="fas fa-envelope"></i> Email</a>
-        <a href="https://scholar.google.com/citations?user=2EFS5WEAAAAJ"><i class="fas fa-graduation-cap"></i> Scholar</a>
+        <a href="https://scholar.google.com/citations?user=2EFS5WEAAAAJ"><i class="fa-brands fa-google-scholar"></i> Scholar</a>
         <a href="https://www.linkedin.com/in/shenglai-zeng-2ba95a23b/"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+      </div>
+      <div class="scholar-badge">
+        <a href="https://scholar.google.com/citations?user=2EFS5WEAAAAJ">
+          <img src="https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/slz-ai/slz-ai.github.io/google-scholar-stats/gs_data_shieldsio.json&style=flat-square&logo=googlescholar&logoColor=white&labelColor=2c5282&color=2c5282" alt="Google Scholar Citations" onerror="this.style.display='none'">
+        </a>
       </div>
     </div>
   </section>
@@ -993,24 +1007,24 @@
 
     <div class="pub-filter" id="pubFilter">
       <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="rag">RAG</button>
-      <button class="filter-btn" data-filter="ir">Information Retrieval</button>
-      <button class="filter-btn" data-filter="factuality">Factuality</button>
-      <button class="filter-btn" data-filter="agent">Agent</button>
-      <button class="filter-btn" data-filter="memory">Memory</button>
-      <button class="filter-btn" data-filter="harness">Agent Harness</button>
       <button class="filter-btn" data-filter="llm">LLM</button>
+      <button class="filter-btn" data-filter="ir">Information Retrieval</button>
+      <button class="filter-btn" data-filter="rag">RAG</button>
+      <button class="filter-btn" data-filter="agent">Agent</button>
+      <button class="filter-btn" data-filter="multimodal">Multimodal</button>
+      <button class="filter-btn" data-filter="personalization">Personalization</button>
+      <button class="filter-btn" data-filter="posttraining">Post-training</button>
+      <button class="filter-btn" data-filter="harness">Agent Harness</button>
+      <button class="filter-btn" data-filter="datacontext">Data &amp; Context Engineering</button>
+      <button class="filter-btn" data-filter="efficiency">Efficiency</button>
+      <button class="filter-btn" data-filter="factuality">Factuality</button>
+      <button class="filter-btn" data-filter="memory">Memory</button>
       <button class="filter-btn" data-filter="reasoning">LLM Reasoning</button>
       <button class="filter-btn" data-filter="interpretability">Mechanistic Interpretability</button>
-      <button class="filter-btn" data-filter="posttraining">Post-training</button>
-      <button class="filter-btn" data-filter="datacontext">Data &amp; Context Engineering</button>
-      <button class="filter-btn" data-filter="personalization">Personalization</button>
       <button class="filter-btn" data-filter="privacy">Privacy</button>
       <button class="filter-btn" data-filter="safety">Safety</button>
-      <button class="filter-btn" data-filter="multimodal">Multimodal</button>
       <button class="filter-btn" data-filter="diffusion">Diffusion</button>
       <button class="filter-btn" data-filter="distributed">Distributed ML</button>
-      <button class="filter-btn" data-filter="efficiency">Efficiency</button>
       <button class="filter-btn" data-filter="benchmark">Benchmark/Eval</button>
       <button class="filter-btn" data-filter="graph">Graph</button>
     </div>
