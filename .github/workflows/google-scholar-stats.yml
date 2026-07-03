@@ -2,7 +2,7 @@ name: Google Scholar Stats
 
 on:
   schedule:
-    - cron: "0 8 * * 1"   # every Monday 08:00 UTC
+    - cron: "0 8 */3 * *"   # every 3 days at 08:00 UTC
   workflow_dispatch:        # allow manual runs from the Actions tab
 
 permissions:
